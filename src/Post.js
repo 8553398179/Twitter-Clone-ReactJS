@@ -16,30 +16,43 @@ function Post({
     avatar
 }) {
     return (
+        // start post
         <div className="post">
+            {/* start post__avatar */}
             <div className="post__avatar">
-                <Avatar src="https://pbs.twimg.com/profile_images/1326212698628087809/2pqiQCNt_400x400.jpg" />
+                <Avatar src={avatar} />
             </div>
+            {/* end post__avatar */}
+
+            {/* end post__body */}
             <div className="post__body">
+                {/* start post__header */}
                 <div className="post__header">
                     <div className="post__headerText">
-                        <h3>B3ns44d {" "}<span className="post__headerSpecial">
-                            <VerifiedUserIcon className="post__badge" />@b3ns44d</span>
+                        <h3>{displayName} {" "}<span className="post__headerSpecial">
+                        {verified && <VerifiedUserIcon className="post__badge" />} @{username}</span>
                         </h3>
                     </div>
                 </div>
+                {/* end post__header */}
+                {/* post__headerDescription */}
                 <div className="post__headerDescription">
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <p>{text}</p>
                 </div>
-                <img src="https://i.pinimg.com/originals/92/fd/31/92fd31b9becf4ecccfcce765db9d6d02.gif" alt=""/>
+                {/* end post__headerDescription */}
+                <img src={image} alt=""/> {/* start/end img tag*/}
+                {/* start post__footer */}
                 <div className="post__footer">
                     <ChatBubbleOutlineIcon fontSize="small" />
                     <RepeatIcon fontSize="small" />
                     <FavoriteBorderIcon fontSize="small" />
                     <PublishIcon fontSize="small" />
                 </div>
+                {/* end post__footer */}
             </div>
+            {/* end post__body */}
         </div>
+        // end post
     
     )
 }
