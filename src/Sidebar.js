@@ -10,7 +10,7 @@ import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
 import ListAltIcon from "@material-ui/icons/ListAlt";
 import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
-import { Button } from "@material-ui/core";
+import { Avatar, Button } from "@material-ui/core";
 
 function Sidebar() {
     return (
@@ -32,6 +32,14 @@ function Sidebar() {
 
             <Button variant="outlined" className="sidebar__tweet" fullWidth>Tweet</Button>
 
+            {/* Profile logo */}
+            <div class="sidebar__login">
+                <div class="sidebar__profile__avatar">
+                    <Avatar src="https://pbs.twimg.com/profile_images/1326212698628087809/2pqiQCNt_400x400.jpg" alt=""/>
+                </div>
+                <p class="sidebar__profile">Abdessamad Bensaad</p>
+                <p class="sidebar__username">@B3ns44d</p>
+            </div>
         </div>
     )
 }
