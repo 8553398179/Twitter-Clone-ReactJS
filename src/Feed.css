@@ -27,3 +27,10 @@
     font-weight: 800;
 
 }
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    .feed{
+        flex: auto;
+    }
+    
+}
