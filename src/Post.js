@@ -43,10 +43,10 @@ function Post({
                 <img src={image} alt=""/> {/* start/end img tag*/}
                 {/* start post__footer */}
                 <div className="post__footer">
-                    <ChatBubbleOutlineIcon fontSize="small" />
-                    <RepeatIcon fontSize="small" />
-                    <FavoriteBorderIcon fontSize="small" />
-                    <PublishIcon fontSize="small" />
+                    <ChatBubbleOutlineIcon className="ChatBubbleOutlineIcon" fontSize="small" />
+                    <RepeatIcon className="RepeatIcon" fontSize="small" />
+                    <FavoriteBorderIcon className="FavoriteBorderIcon" fontSize="small" />
+                    <PublishIcon className="PublishIcon" fontSize="small" />
                 </div>
                 {/* end post__footer */}
             </div>
