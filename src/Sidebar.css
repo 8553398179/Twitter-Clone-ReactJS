@@ -25,6 +25,8 @@
 .sidebar__login{
     padding: 20px;
     margin-top: 50px;
+      /* bottom: 0;
+    position: fixed; */
 }
 .sidebar__login:hover{
     background-color: #e8f5fe;
@@ -32,9 +34,6 @@
     color: var(--twitter-color);
     transition: color 100ms ease-out;
 }
-    /* bottom: 0;
-    position: fixed; */
-
 .sidebar__login a {
     display: block;
     padding: .75em;
@@ -59,3 +58,10 @@
     line-height: 1.714285714;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    .sidebar__tweet{
+        display: block;
+    }
+    
+}

@@ -11,7 +11,6 @@ import ListAltIcon from "@material-ui/icons/ListAlt";
 import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import { Avatar, Button } from "@material-ui/core";
-
 function Sidebar() {
     return (
         <div className="sidebar">
@@ -30,7 +29,7 @@ function Sidebar() {
 
             {/* Button -> Tweet */}
 
-            <Button variant="outlined" className="sidebar__tweet" fullWidth>Tweet</Button>
+            <Button variant="outlined" className="sidebar__tweet" fullWidth type="submit">Tweet</Button>
 
             {/* Profile logo */}
             <div class="sidebar__login">
