@@ -16,7 +16,10 @@
     border: none;
     background-color: var(--twitter-background);
 }
-  
+input:focus{
+    outline: none;
+}
+
 .widgets__searchIcon {
     color: gray;
 }
