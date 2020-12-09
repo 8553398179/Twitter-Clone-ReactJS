@@ -23,7 +23,7 @@ So in this project, I used ***REACTJS*** and ***FIREBASE*** to build a Twitter c
 |TAILWIND CSS| STYLING...|
 
 ## DEMO
-![enter image description here](https://b.top4top.io/p_180460vk51.gif)
+![img demo](https://b.top4top.io/p_180460vk51.gif)
 
 You can check it out just click **[here](https://twitter-clone-f6a3d.web.app/)**
 
